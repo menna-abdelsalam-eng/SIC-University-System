@@ -5,7 +5,7 @@ Final project for the **Samsung Innovation Campus – SIC 801 CP Course (Team 9)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-🎥 **Demo video:** [DEMO_VIDEO_LINK]([DEMO_VIDEO_LINK]https://youtu.be/t5DAP59zK60) &nbsp;|&nbsp; 📊 **Presentation:** [SLIDES_LINK](SLIDES_LINK)
+🎥 **Demo video:** [DEMO_VIDEO_LINK]([DEMO_VIDEO_LINK](https://youtu.be/t5DAP59zK60)) &nbsp;|&nbsp; 📊 **Presentation:** [SLIDES_LINK](SLIDES_LINK)
 
 ---
 
