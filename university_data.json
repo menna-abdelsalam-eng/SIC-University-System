@@ -1,0 +1,179 @@
+{
+    "students": [
+        {
+            "id": "ST1519",
+            "name": "Sama",
+            "email": "sama@example.com",
+            "password": "Demo@1234",
+            "dept": "CS",
+            "courses": [
+                "CS944"
+            ],
+            "grades": {
+                "CS944": "A+"
+            }
+        },
+        {
+            "id": "ST9723",
+            "name": "Ahmed",
+            "email": "ahmed@example.com",
+            "password": "Demo@1234",
+            "dept": "IT",
+            "courses": [
+                "IT558"
+            ],
+            "grades": {
+                "IT558": "A"
+            }
+        },
+        {
+            "id": "ST7395",
+            "name": "ahmed",
+            "email": "ahmed2@example.com",
+            "password": "Demo@1234",
+            "dept": "CS",
+            "courses": [
+                "CS944",
+                "OOP410",
+                "MATH605"
+            ],
+            "grades": {
+                "CS944": "A+"
+            }
+        },
+        {
+            "id": "ST7258",
+            "name": "Salma",
+            "email": "salma@example.com",
+            "password": "Demo@1234",
+            "dept": "CS",
+            "courses": [],
+            "grades": {}
+        },
+        {
+            "id": "ST4763",
+            "name": "Omar",
+            "email": "omar@example.com",
+            "password": "Demo@1234",
+            "dept": "IT",
+            "courses": [
+                "MATH605"
+            ],
+            "grades": {}
+        },
+        {
+            "id": "ST7559",
+            "name": "Amr",
+            "email": "amr@example.com",
+            "password": "Demo@1234",
+            "dept": "CS",
+            "courses": [
+                "IS129"
+            ],
+            "grades": {
+                "IS129": "A-"
+            }
+        }
+    ],
+    "instructors": [
+        {
+            "id": "IN8218",
+            "name": "Mona",
+            "email": "mona@example.com",
+            "password": "Demo@1234",
+            "dept": "cs",
+            "courses": [
+                "CS944",
+                "IT558",
+                "OOP410",
+                "MATH605",
+                "IS129"
+            ],
+            "students": [
+                "ST1519",
+                "ST9723",
+                "ST7395",
+                "ST4763",
+                "ST7559"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS944",
+            "title": "CS Fundamentals",
+            "capacity": 100,
+            "prerequisites": [],
+            "instructor_id": "IN8218",
+            "enrolled_students": [
+                "ST1519",
+                "ST7395"
+            ],
+            "day": "Saturday",
+            "start_time": "09:00",
+            "end_time": "11:00"
+        },
+        {
+            "code": "IT558",
+            "title": "IT fundamentals",
+            "capacity": 75,
+            "prerequisites": [],
+            "instructor_id": "IN8218",
+            "enrolled_students": [
+                "ST9723"
+            ],
+            "day": "Monday",
+            "start_time": "12:00",
+            "end_time": "13:00"
+        },
+        {
+            "code": "OOP410",
+            "title": "Into to OOP",
+            "capacity": 50,
+            "prerequisites": [],
+            "instructor_id": "IN8218",
+            "enrolled_students": [
+                "ST7395"
+            ],
+            "day": "Tuesday",
+            "start_time": "15:00",
+            "end_time": "16:00"
+        },
+        {
+            "code": "MATH605",
+            "title": "Intro to Math1",
+            "capacity": 100,
+            "prerequisites": [],
+            "instructor_id": "IN8218",
+            "enrolled_students": [
+                "ST4763",
+                "ST7395"
+            ],
+            "day": "Saturday",
+            "start_time": "15:00",
+            "end_time": "17:00"
+        },
+        {
+            "code": "IS129",
+            "title": "fundamentals of is",
+            "capacity": 50,
+            "prerequisites": [],
+            "instructor_id": "IN8218",
+            "enrolled_students": [
+                "ST7559"
+            ],
+            "day": "Wednesday",
+            "start_time": "13:00",
+            "end_time": "14:00"
+        }
+    ],
+    "admins": [
+        {
+            "id": "000000",
+            "name": "System Admin",
+            "email": "sic_admin@gmail.com",
+            "password": "admin213",
+            "dept": "Administrator"
+        }
+    ]
+}
